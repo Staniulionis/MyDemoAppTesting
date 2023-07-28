@@ -17,7 +17,7 @@ You need to have on your system:
 **Appium server GUI**
 1. Run Appium server GUI.
 2. In Host field use **127.0.0.1** address.
-3. in Port field use **4723** port.
+3. In Port field use **4723** or **default** port.
 4. Click ***startServer***.
 
 **Android Studio**
