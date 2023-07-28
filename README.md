@@ -32,7 +32,7 @@ You need to have on your system:
 ```
 adb devices
 ```
-You should see active devices
+You should see active devices.
 ```
 emulator-5554   device
 ```
@@ -51,10 +51,7 @@ All maven repositories are available ***[here](https://mvnrepository.com/)***.
   ```python
   capabilities.setCapability("appium:app", "C:/Users/User/Downloads/Android-MyDemoAppRN.1.3.0.build-244.apk");
   ```
-
-
 ## Usage
-
 In Project Structure field **test->java** folder are those classes:
 - DrawingTest
 - LoginTest
@@ -62,9 +59,9 @@ In Project Structure field **test->java** folder are those classes:
 
 1. Open test class (e.g. DrawingTest).
 2. Make sure Appium Server GUI and virtual device(emulator) is running.
-3. Run test
+3. Run test.
 
 #### Test launch methods
-- click green ***Launch*** button near class name.
-- keyboard combination CTRL+SHIFT+F10.
+- Click green ***Launch*** button near class name.
+- Keyboard combination CTRL+SHIFT+F10.
 - In menu bar find **Run** -> click green button ***Run***.
