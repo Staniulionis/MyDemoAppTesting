@@ -3,7 +3,6 @@
 In this project is being tested MyDemoApp functions.
 
 ## Software
-
 You need to have on your system:   
 - IntelliJ IDEA.
 - Appium server GUI.
