@@ -8,6 +8,7 @@ You need to have on your system:
 - IntelliJ IDEA
 - Appium server GUI
 - Android Studio.
+- MyDemoApp
 
 ## Instructions
 
