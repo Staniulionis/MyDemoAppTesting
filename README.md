@@ -48,6 +48,11 @@ emulator-5554   device
 - **java-client**   
 All maven repositories are available ***[here](https://mvnrepository.com/)***
 4. In pom.xml click ***maven refresh*** button. ![alt text](https://i.stack.imgur.com/bKPIz.png)
+5. Change MyDemoApp location if needed. Find MyDemoApp on your system, copy path and and in **BaseTest** class **capabilities.setCapability("appium:app")** line.
+  **Such as:**
+  ```python
+  capabilities.setCapability("appium:app"
+  ```
 
 
 ## Usage
