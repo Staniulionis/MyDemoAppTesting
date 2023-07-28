@@ -16,7 +16,8 @@ You need to have on your system:
 **Appium server GUI**
 1. Run Appium server GUI.
 2. In Host field use **127.0.0.1** address.
-3. In Port field use **4723** or **default** port. If you're going to use other port, make sure both port matches in **BaseTest** class **AppiumDriver URL** lane. Such as:
+3. In Port field use **4723** or **default** port. If you're going to use other port, make sure both port matches in **BaseTest** class **AppiumDriver URL** lane. 
+     **Such as:**
 ```python
 driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 ```
