@@ -11,6 +11,8 @@ You need to have on your system:
 - MyDemoApp.apk
 
 ## Instructions
+**MyDemoApp**
+1. Download the [MyDemoApp](https://drive.google.com/file/d/1Qngi9VwrClzry8CVPP1RxBPnuU9lpfxw/view?usp=drive_link)
 
 **Appium server GUI**
 1. Run Appium server GUI
