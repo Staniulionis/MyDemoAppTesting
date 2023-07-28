@@ -21,7 +21,7 @@ You need to have on your system:
 4. Click ***startServer***.
 
 **Android Studio**
-1. Run Android Studio ***as administrator***.
+1. Run Android Studio. For Windows user ***run as administrator***.
 2. Click ***More Action*** and select ***Virtual device manager***.
 3. If you already have created device - run it(make sure it has 1080p resolution and at least Android 12.0 OS. If you don't click ***Create device***.
 4. Select phone with **1080p resolution** and **Android 12.0** and click ***Next***.
@@ -47,8 +47,7 @@ emulator-5554   device
 - **junit-jupiter-params**
 - **java-client**   
 All maven repositories are available ***[here](https://mvnrepository.com/)***
-4. In pom.xml click ***maven refresh*** button. ![alt text](https://i.stack.imgur.com/bKPIz.png)
-5. Change MyDemoApp location if needed. Find MyDemoApp on your system, copy path and and in **BaseTest** class **capabilities.setCapability("appium:app")** line.
+4. Change MyDemoApp location if needed. Find MyDemoApp on your system, copy path and and in **BaseTest** class **capabilities.setCapability("appium:app")** line.
   **Such as:**
   ```python
   capabilities.setCapability("appium:app", "C:/Users/User/Downloads/Android-MyDemoAppRN.1.3.0.build-244.apk");
