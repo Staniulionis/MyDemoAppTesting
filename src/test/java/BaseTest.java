@@ -27,7 +27,7 @@ public class BaseTest {
         capabilities.setCapability("appium:platformVersion", "13.0");
         capabilities.setCapability("deviceOrientation", "PORTRAIT");
 
-        driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities); //service.getUrl()
+        driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         basePage = new BasePage(driver);
         loginPage = new LoginPage(driver);
