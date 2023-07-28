@@ -50,7 +50,7 @@ emulator-5554   device
 - **junit-jupiter-params**
 - **java-client**   
 All maven repositories are available ***[here](https://mvnrepository.com/)***.
-4. Change MyDemoApp location if needed. Find MyDemoApp on your system, copy path and paste in **BaseTest** class **capabilities.setCapability("appium:app")** line.     
+4. Change MyDemoApp location if needed. Find MyDemoApp on your system, copy path and paste in **BaseTest** class **capabilities.setCapability("appium:app")** lane.     
   **Such as:**
   ```python
   capabilities.setCapability("appium:app", "C:/Users/User/Downloads/Android-MyDemoAppRN.1.3.0.build-244.apk");
