@@ -51,7 +51,7 @@ All maven repositories are available ***[here](https://mvnrepository.com/)***
 5. Change MyDemoApp location if needed. Find MyDemoApp on your system, copy path and and in **BaseTest** class **capabilities.setCapability("appium:app")** line.
   **Such as:**
   ```python
-  capabilities.setCapability("appium:app", "C:/Users/Student-Day-1/Downloads/Android-MyDemoAppRN.1.3.0.build-244.apk");
+  capabilities.setCapability("appium:app", "C:/Users/User/Downloads/Android-MyDemoAppRN.1.3.0.build-244.apk");
   ```
 
 
