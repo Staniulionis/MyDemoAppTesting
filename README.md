@@ -21,7 +21,7 @@ You need to have on your system:
 ```python
 driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 ```
-5. Click ***startServer***.
+4. Click ***startServer***.
 
 **Android Studio**
 1. Run Android Studio. For Windows users ***run as administrator***.
