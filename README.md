@@ -22,15 +22,6 @@ You need to have on your system:
 ```javascript
 driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 ```
-```java
-driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-```
-```python
-driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-```
-```ruby
-driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-```
 4. Click ***startServer***.
 
 **Android Studio**
@@ -61,7 +52,7 @@ emulator-5554   device
 All maven repositories are available ***[here](https://mvnrepository.com/)***.
 4. Change MyDemoApp location if needed. Find MyDemoApp on your system, copy path and paste in **BaseTest** class **capabilities.setCapability("appium:app")** lane.     
   **Such as:**
-  ```java
+  ```javascript
   capabilities.setCapability("appium:app", "C:/Users/User/Downloads/Android-MyDemoAppRN.1.3.0.build-244.apk");
   ```
 ## Usage
